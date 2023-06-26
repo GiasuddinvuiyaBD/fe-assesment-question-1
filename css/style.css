@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=Dosis:wght@300&family=Fasthand&family=Lobster&family=Open+Sans&family=PT+Sans+Narrow&family=PT+Serif&family=Quicksand&display=swap');
+
+body
+{
+  background: #8853c9;
+}
+
+.container {
+  position: relative;
+  height: 100vh; /* Adjust as needed */
+}
+
+input {
+    outline: none
+    width: 20%;
+    border-left: 0px;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+    color: white;
+    background: #8853c9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=tel]:focus {
+  border-bottom: 3px solid #fff;
+  outline: none
+}
+
+::placeholder{
+  color: white;
+  font-family: 'Dosis', sans-serif;
+}
+
+label {
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #fff;
+}
+
+input {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
